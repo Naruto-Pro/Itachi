@@ -51,12 +51,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is ITACHI! 
 I am an Anime themed group management bot. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is ITACHI.
 I help admins manage their groups with my Power Level! 
 
 *Main* commands available:
@@ -74,7 +74,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SungJinWoo_IMG = "https://telegra.ph/file/244cdf7757e2c343784cd.jpg"
+SungJinWoo_IMG = "https://telegra.ph/file/ac85e843ea1876cc46440.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/piratehunter1202)"""
@@ -195,14 +195,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Sung Jin-Woo to your group",
+                            text="☑️ Add ITACHI to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚨 Support 🚨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             https://t.me/AnimeChatNetwork),
                          InlineKeyboardButton(
                              text="🔗 Source 🔗",
                              url="https://github.com/Pirate-Hunter/Sung-Jinwoo")
