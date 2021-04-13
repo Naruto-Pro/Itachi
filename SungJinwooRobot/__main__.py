@@ -71,7 +71,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SungJinWoo_IMG = "https://telegra.ph/file/ac85e843ea1876cc46440.jpg"
+Itachi_IMG = "https://telegra.ph/file/ac85e843ea1876cc46440.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/piratehunter1202)"""
@@ -183,7 +183,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                SungJinWoo_IMG,
+                Itachi_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name)),
@@ -202,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                              https://t.me/AnimeChatNetwork),
                          InlineKeyboardButton(
                              text="🔗 Source 🔗",
-                             url="https://github.com/Pirate-Hunter/Sung-Jinwoo")
+                             url="https://github.com/Naruto-Pro/Itachi")
                      ]]))
                      
                     
