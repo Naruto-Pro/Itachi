@@ -24,7 +24,7 @@ jobs:
 
         with:
 
-          name:  Pirate-Hunter/Sung-Jinwoo
+          name:  Naruto-Pro/Itachi
 
           username: ${{ secrets.DOCKER_USERNAME }}
 
